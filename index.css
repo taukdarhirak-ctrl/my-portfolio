@@ -1,0 +1,68 @@
+body{
+  margin:0px;
+  background-color:#f5f5f5;
+  font-family:times new roman, comic sans ms;
+  font-weight:bold;
+}
+
+
+.header{
+  background-color:#329;/* soft red */
+  color:#fff;
+  padding:50px 20px;
+  text-align:center;
+}
+
+.about, .skills, .contacts{
+  background-color:lightgreen;
+  color:#2222222;
+  padding:25px;
+  margin:25px;
+  border-radius:10px;
+}
+
+
+
+.about, .skills, .contacts{
+  max-width:600px;
+  margin:20px auto;
+}
+
+.skill, .contact{
+  background-color:#82a;
+  color:#fff;
+  padding:10px 15px;
+  margin:5px;
+  border-radius:20px;
+}
+
+
+.skill-box, .contact-box{
+  display:flex;
+  gap:15px;
+  flex-wrap:wrap;
+}
+
+
+
+.footer{
+  background-color:#855;
+  color:#fff;
+  text-align:center;
+  padding:15px 10px;
+  font-size:14px;
+  letter-spacing:0.5px;
+  
+}
+
+section{
+  border-bottom:4px solid #ddd;
+}
+
+.skill, .contact {
+  transition: 0.3s;
+}
+
+.skill:hover, .contact:hover {
+  transform: scale(1.05);
+}
