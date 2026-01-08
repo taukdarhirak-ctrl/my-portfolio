@@ -56,13 +56,13 @@ body{
 }
 
 section{
-  border-bottom:4px solid #ddd;
+  border-bottom:10px solid #333;
 }
 
 .skill, .contact {
-  transition: 0.3s;
+  transition: 0.2s;
 }
 
 .skill:hover, .contact:hover {
-  transform: scale(1.05);
+  transform: scale(1.10);
 }
