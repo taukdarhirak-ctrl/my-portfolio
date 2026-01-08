@@ -74,3 +74,8 @@ section{
 .skill:hover, .contact:hover {
   transform: scale(1.10);
 }
+section {
+    width: 90%;
+    max-width: 600px;
+    margin: 20px auto;
+}
